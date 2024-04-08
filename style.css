@@ -1,0 +1,134 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+body {
+    background-color: #004047;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.demo {
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 30px;
+}
+
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+.about {
+    margin-top: 100px;
+}
+
+.about h1 {
+    font-size: 52px;
+    color: white;
+}
+
+.about .container {
+    line-height: 22px;
+    display: flex;
+    gap: 190px;
+}
+
+.about p {
+    color: white;
+}
+
+.intro {
+    background-color: #004047;
+}
+
+.intro .container .qator {
+    display: flex;
+    gap: 20%;
+}
+
+.intro .director {
+    background-color: #012F34;
+    width: 300px;
+}
+
+.intro .directors {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.intro h1 {
+    text-align: center;
+    color: white;
+}
+
+
+.directors .director {
+    text-align: center;
+}
+
+.qator .container h1 {
+    color: white;
+    text-align: center;
+}
+
+
+.qator .container img {
+    height: 15px;
+    display: flex;
+}
+
+.qator .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 35px;
+    margin: 25px;
+    justify-content: center;
+}
+
+.demo {
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 30px;
+}
+
+.Bitmap {
+    background-color: #F67E7E;
+    padding: 30px;
+    margin: 25px;
+}
+
+.Bitmap .container a {
+    text-decoration: none;
+}
+
+
+.cobchekt .container{
+display: flex;
+gap: 30px;
+
+
+}
+
+.cobchekt img{
+    height: 100%;
+}
